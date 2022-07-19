@@ -12,6 +12,7 @@ export class CourseController {
     return this.courseService.create(createCourseDto);
   }
 
+  
   @Get()
   findAll() {
     return this.courseService.findAll();
